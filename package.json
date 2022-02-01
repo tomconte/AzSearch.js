@@ -1,10 +1,13 @@
 {
-  "name": "azsearch.js",
-  "version": "0.0.21",
+  "name": "@tomconte/azsearch.js",
+  "version": "0.0.22",
   "description": "Automagical UI and react components for Azure Search using AzSearchStore",
   "repository": {
     "type": "git",
-    "url": "https://github.com/EvanBoyle/AzSearch.js.git"
+    "url": "https://github.com/tomconte/AzSearch.js.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
   },
   "main": "dist/AzSearch.bundle.js",
   "module": "dist/AzSearch.js",
@@ -27,7 +30,7 @@
   "author": "Evan Boyle (https://github.com/EvanBoyle)",
   "license": "MIT",
   "dependencies": {
-    "azsearchstore": "^0.0.27",
+    "@tomconte/azsearchstore": "^0.0.28",
     "hogan.js": "3.0.2",
     "numeral": "^2.0.6",
     "object-assign": "^4.1.1",

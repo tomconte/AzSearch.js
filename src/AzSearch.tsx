@@ -1,7 +1,7 @@
 /// <reference path="../dist/hogan.js.d.ts" />
 
 import { Provider } from "react-redux";
-import { Store, AzSearchStore } from "azsearchstore";
+import { Store, AzSearchStore } from "@tomconte/azsearchstore";
 import { render } from "react-dom";
 import { compile } from "hogan.js";
 import * as React from "react";
@@ -24,6 +24,7 @@ import StaticFilter from "./components/StaticFilter";
 import Pager from "./components/Pager";
 import LoadingIndicator from "./components/LoadingIndicator";
 import { createOrderByClause } from "./utils/utils";
+import "redux-thunk";
 
 
 import "rc-slider/assets/index.css";
