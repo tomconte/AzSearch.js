@@ -2,10 +2,10 @@
 # yarn lockfile v1
 
 
-"@tomconte/azsearchstore@^0.0.28":
-  version "0.0.28"
-  resolved "https://npm.pkg.github.com/download/@tomconte/azsearchstore/0.0.28/f129e6cb384dbce9666dc1324d41564d83ead40196133f4470c2c695c869d6a9#cd22e5f40f76669d413d2c4d83f2a13bc0b8d90e"
-  integrity sha512-omatGuxRBQ0v1MGdcDPMuidY2flZNM5MuZ0E1ic2wwXpHW0hYsKyZcwbtSWGoYN8XZpxfbiZinBYb4yy51W1Hg==
+"@tomconte/azsearchstore@^0.0.29":
+  version "0.0.29"
+  resolved "https://npm.pkg.github.com/download/@tomconte/azsearchstore/0.0.29/f8cb42181ae0fad3df78320a8f8a3299c5e58a44ddaee7dfcb285ba33146ffce#9c97903d326751c8b6c2d36882dadad17576817c"
+  integrity sha512-ThYlhcONfg3DorwR5eRaPx+WNtQLHPTcni+uS8qK87oFHGb9ef+z0f5ZocbFx3gLoZR7eL90snBBEzvZXu+nag==
   dependencies:
     es6-promise "^4.0.5"
     isomorphic-fetch "^2.2.1"

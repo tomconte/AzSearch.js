@@ -1,6 +1,6 @@
 {
   "name": "@tomconte/azsearch.js",
-  "version": "0.0.22",
+  "version": "0.0.23",
   "description": "Automagical UI and react components for Azure Search using AzSearchStore",
   "repository": {
     "type": "git",
@@ -21,7 +21,7 @@
     "tscompile": "tsc",
     "devbuild": "npm run compile && npm run devpack",
     "devpack": "webpack -d",
-    "prodpack": "webpack -p && copy AzSearch.css dist\\",
+    "prodpack": "webpack -p && cp AzSearch.css dist\\",
     "compile": "npm run lint && npm run tscompile",
     "pretest": "npm run lint",
     "test": "jest",
@@ -30,7 +30,7 @@
   "author": "Evan Boyle (https://github.com/EvanBoyle)",
   "license": "MIT",
   "dependencies": {
-    "@tomconte/azsearchstore": "^0.0.28",
+    "@tomconte/azsearchstore": "^0.0.29",
     "hogan.js": "3.0.2",
     "numeral": "^2.0.6",
     "object-assign": "^4.1.1",
